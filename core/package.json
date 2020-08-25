@@ -1,0 +1,27 @@
+{
+    "name": "core",
+    "version": "1.0.0",
+    "description": "Core by Typescript",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "build": "webpack --color --progress"
+    },
+    "dependencies": {
+      "@babel/core": "^7.7.2",
+      "@babel/plugin-proposal-class-properties": "^7.8.3",
+      "@babel/preset-env": "^7.7.1",
+      "@babel/preset-typescript": "^7.7.2",
+      "@types/node": "^12.12.7",
+      "babel-loader": "^8.0.6",
+      "core-js": "^3.4.8",
+      "cross-env": "^6.0.3",
+      "file-loader": "^4.2.0",
+      "terser-webpack-plugin": "^2.2.1",
+      "tslint": "^5.20.1",
+      "typescript": "^2.9.1",
+      "url-loader": "^2.2.0",
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.10"
+    }
+  }
